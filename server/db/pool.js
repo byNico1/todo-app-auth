@@ -9,5 +9,5 @@ export default new Pool({
   user: process.env.USER,
   password: process.env.PASSWORD,
   port: process.env.PORT,
-  database: "todoapp",
+  database: process.env.DB,
 });
